@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="{{ asset('web/css/bootstrap.css') }}">
     <!-- Bootstrap-Core-CSS -->
     <link rel="stylesheet" href="{{ asset('web/css/style.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('web/css/custome.css') }}" type="text/css" media="all" />
     <!-- Style-CSS -->
     <!-- font-awesome-icons -->
     <link href="{{ asset('web/css/font-awesome.css') }}" rel="stylesheet">
