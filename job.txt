@@ -1,0 +1,55 @@
+CRUD
+--------------------
+-CATEGORIES --> done
+-CLASS      --> done
+
+FE   JUMAT 1
+---------------------
+-PRODUCT    --> done 
+-PRODUCT    --> done
+-LOGIN TEMPLATE   --> done
+-REGISTER TEMPLATE  --> done
+-CART      --> done 
+-PRODUCT DETAIL --> done
+-UPDATE CART  --> done
+-PROFILE --> DONE
+-PROFILE VALIDATE --> done
+- CHECKOUT  INSERT DATA--> done
+- ORDER REVIEW --> done
+-GRAND TOTAL CREATE DB --> done
+-INSERT ORDER  ---> done
+-INSERT ORDER PRODUCT ---> done
+- PAGE SUCCESS CHECKOUT -->  done
+- SESSION FORGOT / REMOVE --> done
+-Remove session cart after page thank -->done
+-link register & login home page -->done
+-logout --> done
+--middleware checkout --> done
+- note order delete --> done
+--------------------------------------------
+FOCUS NOW  2 jam
+-------------------------------------------
+1.-show profile   --> nanti mlm
+2.-user order     --> nanti mlm
+3.-benerin checkout jika sudah daftar --> nanti mlm
+4.laout cart benerin --> nanti mlm
+5.laout cart checkout --> nanti mlm
+6.laout cart order review --> nanti mlm
+7.laout cart thank --> nanti mlm
+8.list reservation
+9.reservation delete list
+10.ACL CRUD
+11.update status active
+12.generate invoice
+13.grafik chart dashbord
+----------------------------------------------------------------------------
+https://azishapidin.com/blog/menggunakan-payment-gateway-midtrans-di-laravel/
+
+
+---> ripcurl flow booking
+-----------------------------
+- pertama pilih product
+- kedua pilih tanggal
+- pilih jam 
+-pilih quantiti
+----------------------------
