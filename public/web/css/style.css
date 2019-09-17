@@ -2002,4 +2002,23 @@ a.move-top span {
 }
 }
 
-/*--//responsive--*/
+/*--//checkout--*/
+.checkoutTitle h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#btn-checkout {
+    margin-top: 16px;
+    padding-left: 13px;
+    margin-left: 13px;
+}
+.review h3 {
+    padding-left: 0px;
+    margin-left: -14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.order-review-label{
+    font-size: 15px;
+}

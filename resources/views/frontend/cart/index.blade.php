@@ -34,7 +34,7 @@
                     <span class="input-number-decrement">
                         <a href="{{ url('cart/update-qty/'.$cart->id.'/1') }}">+</a>
                     </span>
-                    <input class="input-number" type="text" value="1" min="0" max="10">
+                    <input class="input-number" type="text" value="{{ $cart->qty }}" min="0" max="10">
                     <span class="input-number-increment">
                         <a href="{{ url('cart/update-qty/'.$cart->id.'/-1') }}">-</a>
                     </span>

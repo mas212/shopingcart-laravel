@@ -66,7 +66,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="{{ route('admin.reservation') }}">
               <i class="nc-icon nc-badge"></i>
               <p>Reservation</p>
             </a>

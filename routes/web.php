@@ -77,3 +77,9 @@ Route::patch('user/profile/update', [
 	'uses' => '\App\Http\Controllers\User\UserProfileController@update',
 	'as' => 'user.profile.update'
 ]);
+
+//Reservation
+Route::get('admin/reservation', [
+	'uses' 	=> '\App\Http\Controllers\Admin\Reservation\ReservationController@index',
+	'as' 	=> 'admin.reservation'
+]);

@@ -27,23 +27,37 @@ FE   JUMAT 1
 --middleware checkout --> done
 - note order delete --> done
 -laout cart benerin --> done
---------------------------------------------
-FOCUS NOW  2 jam
--------------------------------------------
-1.-show profile   --> nanti mlm
-2.-user order     --> nanti mlm
-3.-benerin checkout jika sudah daftar --> nanti mlm
-4.laout cart checkout --> nanti mlm
-5.laout cart order review --> nanti mlm
-6.laout cart thank --> nanti mlm
-7.list reservation
-8.reservation delete list
-9.ACL CRUD
-10.update status active
-11.generate invoice
-12.grafik chart dashbord
+- laout cart checkout --> done
+- laout cart thank --> done
+- laout cart order review --> done
+-benerin checkout jika sudah daftar --> done
+- laout checkout  -->done
+- review template --> done
+- list reservation  --> done
+-------------------------------------------------------
+FOCUS NOW  sprint 1 
+------------------------------------------------------
+1.-show profile   --> selasa
+2.-user order     --> selasa
+3.reservation delete list -->  selasa
+4.update status active --> selasa 
+5.ACL CRUD --> rabu
+6.generate invoice -->kamis
+7.grafik chart dashbord -->kamis
+8.email activasi  --> jumat
+9.email order to admin --> 
+10.email order to member beli j--> jum
+-------------------------------------------------------------------------
+sprint II
 ----------------------------------------------------------------------------
+-MIDTRANTS
+-CALENDER BOOKING 
+-INVOICE
+- 
+-------------------------------------------------------------------------
 https://azishapidin.com/blog/menggunakan-payment-gateway-midtrans-di-laravel/
+https://daengweb.id/membuat-aplikasi-invoice-laravel-57-4-create-invoice
+https://daengweb.id/part-5-membuat-aplikasi-pos-point-of-sales-laravel-56-role-permission-users
 
 
 ---> ripcurl flow booking

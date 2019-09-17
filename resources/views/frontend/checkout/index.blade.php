@@ -2,17 +2,19 @@
 @section('content')
     <section class="portfolio-flyer py-5" id="gallery">
         <div class="container pt-lg-3 pb-md-5">
-               <h1>Bill To</h1>
+               <div class="checkoutTitle">
+                  <h1>Bill To</h1>
+               </div>
                <form method="post" action="{{ route('cart.checkout') }}">
                    {{ csrf_field() }}
                    <div class="row">
                        <div class="col-md-6">
                            <label>Full name</label>
-                           {!! Form::text('name', null, array( 'class'=>'form-control', 'required'=>'required')) !!}
+                           <input type="text" name="name" class="form-control" value="{{$userDetails->name}}">
                        </div>
                        <div class="col-md-6">
                             <label>Email</label>
-                           {!! Form::text('email', null, array( 'class'=>'form-control', 'required'=>'required')) !!}
+                           <input type="text" name="email" class="form-control" value="{{$userDetails->email}}">
                        </div>
                    </div>
                    <div class="row">
@@ -28,7 +30,7 @@
                        </div>
                    </div>
                    <div class="row">
-                       <button class="btn btn-danger">
+                       <button class="btn btn-danger" id="btn-checkout">
                            Checkout 
                        </button>
                    </div>

@@ -22,20 +22,28 @@
                             <div class="product-price">
                                 {{ $productDetail->price }}
                             </div>
-                            <div class="product-date" style="margin-top: 10px; margin-bottom: 10px;">
-                                <label>Start date</label>
-                                {!! Form::date('start_date', null, array( 'class'=>'form-control', 'required'=>'required', 'placeholder'=>'Start date')) !!}
-                            </div>
-                            <div class="product-date" style="margin-top: 10px; margin-bottom: 10px;">
-                                <label>Choose time</label>
-                                {!! Form::time('start_time', null, array( 'class'=>'form-control', 'required'=>'required', 'placeholder'=>'Time')) !!}
-                            </div>
-                            <div class="product-qty" style="margin-top: 10px; margin-bottom: 10px;">
-                                <label>QTY</label>
-                                <input type="text" name="qty" value="1" class="form-control">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="product-date" style="margin-top: 10px; margin-bottom: 10px;">
+                                        <label style="font-weight: bold;font-size: 14px;">DATE</label>
+                                        {!! Form::text('start_date', null, array( 'class'=>'form-control', 'required'=>'required', 'placeholder'=>'Start date', 'id'=>'start_date')) !!}
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="product-date" style="margin-top: 10px; margin-bottom: 10px;">
+                                        <label style="font-weight: bold;font-size: 14px;">TIME</label>
+                                        {!! Form::time('start_time', null, array( 'class'=>'form-control', 'required'=>'required', 'placeholder'=>'Time', 'id'=>'start_time')) !!}
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="product-qty" style="margin-top: 10px; margin-bottom: 10px;">
+                                        <label style="font-weight: bold;font-size: 14px;">QTY</label>
+                                        <input type="text" name="qty" value="1" class="form-control">
+                                    </div>
+                                </div>
                             </div>
                             <div class="product-btn">
-                                <button type="submit" class="btn btn-primary btn-round">BOOK CLASS</button>
+                                <button type="submit" class="btn btn-warning btn-round">BOOK CLASS</button>
                             </div>
                         </form>
                     </div>

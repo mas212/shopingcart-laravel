@@ -32,6 +32,9 @@
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
     <!-- //Fonts -->
+    <link rel="stylesheet" href="{{ asset('web/js/pickerjs/themes/default.css') }}">
+    <link rel="stylesheet" href="{{ asset('web/js/pickerjs/themes/default.date.css') }}">
+    <link rel="stylesheet" href="{{ asset('web/js/pickerjs/themes/default.time.css') }}">
 
 </head>
 
@@ -118,5 +121,23 @@
     </div>
 	</div>
     <!-- //copyright -->
+    <script src="{{ asset('web/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('web/js/pickerjs/picker.js') }}"></script>
+    <script src="{{ asset('web/js/pickerjs/picker.date.js') }}"></script>
+    <script src="{{ asset('web/js/pickerjs/picker.time.js') }}"></script>
+    <script>
+
+    var now = new Date();
+    $('#start_date').data('value', new Date());
+
+    var from_$input = $('#start_date').pickadate({
+        format: 'yyyy-m-d',
+        formatSubmit: 'yyyy/m/d',
+        onClose: function(){
+            $(document.activeElement).blur();
+        }
+    });
+    from_picker = from_$input.pickadate('picker');
+    </script>
 </body>
 </html>

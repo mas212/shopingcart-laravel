@@ -329,3 +329,23 @@
 ============================================================================================ */
 /* End Cart Area css
 ============================================================================================ */
+.thankTitle {
+    background: #e2851b;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.thankPrice,
+.thankOrder{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.orderNumber{
+   background: #e2851b;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
